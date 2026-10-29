@@ -1,95 +1,163 @@
 <!DOCTYPE html>
-<html>
-<style>
-  div {
-            background-color: #F7DA5C
-      }
-  
-  table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+<html lang="nl">
 <head>
-      <meta charset="UTF-8">
-      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pokémons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #F7DA5C;
+            padding: 10px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
 </head>
 <body>
-      <img src="banner.png" style="width:100%;"> 
-      <div>
-            <a href="document.location='index.html'/" target="_self">story</a>
-            <a href="document.location='pokemons.html'/" target="_self">pokemons</a>
-            <a href="document.location='types.html'/" target="_self">types</a>
-      </div>
 
-    <h1>The Pokémons ⚡🔥☠️🪽🪲🧚‍♀️💧</h1>
+    <header>
+        <img src="banner.png" alt="Pokémon Banner" style="width:100%;">
+        <nav>
+            <a href="index.html" target="_self">story</a>
+            <a href="pokemons.html" target="_self">pokemons</a>
+            <a href="types.html" target="_self">types</a>
+        </nav>
+    </header>
 
-  <table>
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>afbeelding</th>
-    <th>Type1</th>
-    <th>Type2</th>
-    <th>HP</th>
-    <th>Speed</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Bulbasaur</td>
-    <td>.</td>
-    <td>Grass</td>
-    <td>Poison</td>
-    <td>45</td>
-    <td>45</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Ivysaur</td>
-    <td>.</td>
-    <td>Grass</td>
-    <td>Poison</td>
-    <td>60</td>
-    <td>60</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Venusaur</td>
-    <td>.</td>
-    <td>Grass</td>
-    <td>Poison</td>
-    <td>80</td>
-    <td>80</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Charmander</td>
-    <td>.</td>
-    <td>Fire</td>
-    <td></td>
-    <td>39</td>
-    <td>65</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Charmeleon</td>
-    <td>.</td>
-    <td>Fire</td>
-    <td></td>
-    <td>58</td>
-    <td>80</td>
-  </tr>
-</table>
+    <main>
+        <h1>The Pokémons ⚡🔥☠️🪽🪲🧚‍♀️💧</h1>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Afbeelding</th>
+                <th>Type1</th>
+                <th>Type2</th>
+                <th>HP</th>
+                <th>Speed</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bulbasaur</td>
+                <td>.</td>
+                <td>Grass</td>
+                <td>Poison</td>
+                <td>45</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ivysaur</td>
+                <td>.</td>
+                <td>Grass</td>
+                <td>Poison</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Venusaur</td>
+                <td>.</td>
+                <td>Grass</td>
+                <td>Poison</td>
+                <td>80</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Charmander</td>
+                <td>.</td>
+                <td>Fire</td>
+                <td></td>
+                <td>39</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Charmeleon</td>
+                <td>.</td>
+                <td>Fire</td>
+                <td></td>
+                <td>58</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Charizard</td>
+                <td>.</td>
+                <td>Fire</td>
+                <td>Flying</td>
+                <td>78</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Squirtle</td>
+                <td>.</td>
+                <td>Water</td>
+                <td></td>
+                <td>44</td>
+                <td>43</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Wartortle</td>
+                <td>.</td>
+                <td>Water</td>
+                <td></td>
+                <td>59</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Blastoise</td>
+                <td>.</td>
+                <td>Water</td>
+                <td></td>
+                <td>79</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Caterpie</td>
+                <td>.</td>
+                <td>Bug</td>
+                <td></td>
+                <td>45</td>
+                <td>45</td>
+            </tr>
+        </table>
+    </main>
+
 </body>
 </html>
