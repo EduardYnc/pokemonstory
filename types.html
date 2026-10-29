@@ -1,24 +1,88 @@
 <!DOCTYPE html>
-<html>
-<style>
-      div {
-            background-color: #F7DA5C
-      }
-</style>
+<html lang="nl">
 <head>
-      <meta charset="UTF-8">
-      
+    <meta charset="UTF-8">
+    <title>Pokémon Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #F7DA5C;
+            padding: 10px;
+        }
+        nav a {
+            margin-right: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #000;
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-      <img src="banner.png" style="width:100%;"> 
-      <div>
-            <a href="https://eduardync.github.io/story/" target="_self">story</a>
-            <a href="https://eduardync.github.io/story/pokemons/" target="_self">pokemons</a>
-            <a href="https://eduardync.github.io/story/types" target="_self">types</a>
-      </div>
 
-  <h1> The Pokémon Types ⚡🔥☠️🪽🪲🧚‍♀️💧 </h1>
-      
+    <img src="banner.png" alt="Banner" style="width:100%;">
+
+    <nav>
+        <a href="index.html">story</a>
+        <a href="pokemons.html">pokemons</a>
+        <a href="types.html">types</a>
+    </nav>
+
+    <div class="container">
+        <h1>The Pokémon Types ⚡🔥💧</h1>
+
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Sterk tegen</th>
+                <th>Zwak tegen</th>
+            </tr>
+            <tr>
+                <td>🌱 Grass</td>
+                <td>Water, Ground, Rock</td>
+                <td>Fire, Ice, Poison, Flying, Bug</td>
+            </tr>
+            <tr>
+                <td>🔥 Fire</td>
+                <td>Grass, Ice, Bug, Steel</td>
+                <td>Water, Ground, Rock</td>
+            </tr>
+            <tr>
+                <td>💧 Water</td>
+                <td>Fire, Ground, Rock</td>
+                <td>Electric, Grass</td>
+            </tr>
+            <tr>
+                <td>⚡ Electric</td>
+                <td>Water, Flying</td>
+                <td>Ground</td>
+            </tr>
+            <tr>
+                <td>☠️ Poison</td>
+                <td>Grass, Fairy</td>
+                <td>Ground, Psychic</td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
